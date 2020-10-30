@@ -1,0 +1,41 @@
+.head{
+	background-color: coral;
+	display:flex;
+	justify-content: space-between;
+}
+
+.menu{
+	display:flex;
+}
+
+.media{
+	flex-direction: row-reverse;
+}
+
+.menu{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.links a, .menu a {
+	display: flex;
+	justify-content: center;
+}
+
+/*
+.links a{
+	border : solid;
+	border-color: coral;
+}
+*/
+
+
+p, h2{
+	text-align: center;
+}
+
+.media img{
+	border :solid;
+	border-color: coral;
+}
