@@ -8,34 +8,43 @@
 	display:flex;
 }
 
-.media{
-	flex-direction: row-reverse;
-}
-
 .menu{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
-.links a, .menu a {
+.links, .menu a {
 	display: flex;
 	justify-content: center;
 }
 
-/*
+
 .links a{
-	border : solid;
-	border-color: coral;
+	display:flex;
 }
-*/
 
 
 p, h2{
 	text-align: center;
 }
 
-.media img{
-	border :solid;
+.media{
+	display:flex;
+	justify-content: flex-end;
+}
+
+.item p {
+	font-size: x-large;
+	border: solid;
+}
+
+.item img {
+	box-shadow: 5px 5px 5px 5px rgba(255, 127, 80, 0.2);
+	border: solid;
 	border-color: coral;
+}
+
+body{
+	background-color: #E0E0E0;
 }
