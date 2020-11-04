@@ -21,30 +21,63 @@
 
 
 .links a{
-	display:flex;
+	padding: 30px;
 }
-
 
 p, h2{
 	text-align: center;
+	font-family: 'Cooper Black', Helvetica, sans-serif;
 }
 
-.media{
+h3, h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.media_gr{
 	display:flex;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 }
 
 .item p {
-	font-size: x-large;
-	border: solid;
+	font-size: xx-large;
+	transform: translate(0%,-250%);
+	color:white;
+	opacity:0;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Arial, sans-serif;
 }
 
 .item img {
-	box-shadow: 5px 5px 5px 5px rgba(255, 127, 80, 0.2);
 	border: solid;
 	border-color: coral;
 }
 
+.item:hover p {
+	opacity: 1;
+}
+
+.item:hover img {
+	opacity: 0.33;
+	box-shadow: 5px 5px 5px 5px rgba(255, 127, 80, 0.7);
+}
+
+.media:hover img {
+	opacity: 0.33;
+}
+
 body{
 	background-color: #E0E0E0;
+}
+
+h1 {
+	color: whitesmoke;
+}
+
+.links a:link {
+	color: rgb(224, 74, 19);
+}
+
+.links a:visited {
+	color: rgb(0, 217, 255)
 }
